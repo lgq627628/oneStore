@@ -1,0 +1,20 @@
+.icon{display: inline-block;background: url("../../src/img/indexhead_sprite.png");vertical-align: middle;}
+.icon_down{width: 14px;height: 12px;background-position: right -260px;}
+.icon_top_phone{width: 11px;height: 16px;background-position: -288px -230px;padding-bottom: 2px;}
+.icon_close{width: 14px;height: 14px;background-position: -98px -90px;}
+.icon_search{width: 20px;height: 20px;background-position: 40px -28px;}
+.icon_shopping{width: 20px;height: 16px;background-position: left -690px;}
+
+.icons{display: block;width: 25px;height: 25px;background: url("../../src/img/icon.png");vertical-align: middle;}
+.icon_phone{background-position: 0 0;}
+.icon_plane{background-position: 0 -26px;}
+.icon_movie{background-position: 0 -52px;}
+.icon_game{background-position: 0 -76px;}
+.icon_lottery{background-position: 0 -100px;}
+.icon_gas{background-position: 0 -125px;}
+.icon_hotel{background-position: 0 -150px;}
+.icon_train{background-position: 0 -175px;}
+.icon_money{background-position: 0 -200px;}
+.icon_IOUs{background-position: 0 -225px;}
+.icon_fund{background-position: 0 -250px;}
+.icon_card{background-position: 0 -275px;}

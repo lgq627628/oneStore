@@ -1,0 +1,85 @@
+.floor{
+	margin: 15px auto;
+}
+.floor_title{
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 2px solid rgb(177,25,26);
+}
+.floor_title h2{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+}
+.floor_title ul li{
+	float: left;
+	padding: 0 12px;
+
+}
+.floor_title ul li a{
+	font-size: 16px;
+	color: rgb(177,25,26);
+}
+.floor_title ul li:first-child{
+	background: rgb(177,25,26);
+	
+}
+.floor_title ul li:first-child a{
+	color: white;
+}
+.floor_title ul li:hover{
+	background: rgb(177,25,26);
+	
+}
+.floor_title ul li:hover a{
+	color: white;
+}
+.floor_store{
+	height: 360px;
+	text-align: center;
+}
+.floor_store>div{
+	float: left;
+}
+.floor_store h3{
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
+	margin-bottom: 5px;
+}
+.floor_store h4{
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 12px;
+}
+.floor_store_l,.floor_store_c,.floor_store_r{
+	height: 360px;
+	border-bottom: 1px solid #ccc;
+}
+.floor_store_l ul{
+	width: 180px;
+	height: 122px;
+	padding-top: 10px;
+}
+.floor_store_l ul li{
+	width: 90px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+}
+.floor_store_l ul li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: black;
+}
+.floor_store_l a h3{
+	color: rgb(200,22,35);
+}
+.floor_store_r>div{
+	float: left;
+	padding: 18px 18px;
+}
+.floor_store_r div a{
+	display: block;
+	padding-bottom: 10px;
+}

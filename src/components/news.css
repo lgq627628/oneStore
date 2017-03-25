@@ -1,0 +1,50 @@
+.news{
+	width: 240px;
+	height: 391px;
+	background: white;
+	float: right;
+}
+.news dl dt{
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	margin: auto 15px;
+	border-bottom: 1px solid #ddd;
+}
+.news dl dd{
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.news dl dd a{
+	color: rgb(102,102,102);
+}
+.news dl dd a:hover{
+	color: rgb(200,22,35);
+}
+
+
+.icon_list{
+	width: 236px;
+	height: 204px;
+	position: absolute;
+	right: 1px;
+	bottom: 0px;
+	border-top: 1px solid #e8e8e7;
+	border-left: 1px solid #e8e8e7;
+}
+.icon_list ul li{
+	width: 58px;
+	height: 67px;
+	border-bottom: 1px solid #e8e8e7;
+	border-right: 1px solid #e8e8e7;
+	float: left;
+	text-align: center;
+}
+.icon_list ul li .icons{
+	margin: 10px auto 5px;
+}
+.icon_list ul li:hover {
+	cursor: pointer;
+	background-color: #eee;
+}

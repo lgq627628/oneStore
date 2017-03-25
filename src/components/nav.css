@@ -1,0 +1,63 @@
+nav{
+	height: 44px;
+	border-bottom: 2px solid rgb(177,25,26);
+	position: relative;
+}
+.categories{
+	width: 210px;
+	height: 44px;
+	background: rgb(177,25,26);
+	line-height: 44px;
+	text-indent: 1em;
+	float: left;
+}
+.categories a{
+	color: white;
+	font-size: 16px;
+}
+.nav_list{
+	position: absolute;
+	top: 46px;
+	border-left:1px solid rgb(200,22,35);
+	border-bottom: 1px solid rgb(200,22,35);
+	z-index: 10;
+}
+.nav_list ul li{
+	width: 209px;
+	height: 30px;
+	line-height: 30px;
+	background: rgb(200,22,35);
+	text-indent: 1em;
+	color: white;
+}
+.nav_list ul li:hover{
+	background: white;
+	color: rgb(200,22,35);
+}
+.nav_list ul li:hover a{
+	color: rgb(200,22,35);
+}
+.nav_list ul li a{
+	color: white;
+	font-size: 13px;
+}
+.nav_list ul li i{
+	float: right;
+	padding-right: 9px;
+}
+.nav_item{
+	padding-left: 230px;
+}
+.nav_item ul li{
+	float: left;
+	height: 44px;
+	line-height: 44px;
+	padding-right: 45px;
+}
+.nav_item ul li a{
+	color: black;
+	font-size: 16px;
+}
+.nav_item ul li a:hover{
+	color: rgb(200,22,35);
+}

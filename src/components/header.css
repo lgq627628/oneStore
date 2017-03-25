@@ -1,0 +1,37 @@
+header{background: rgb(249,249,249);border-bottom: 1px solid rgb(240,240,240);height: 34px;line-height: 34px;}
+header .w ul>li{padding-left: 10px;float: left;position: relative;border-left:1px solid rgb(249,249,249);border-right: 1px solid rgb(249,249,249);}
+header .w ul li a{color: #646464;}
+header .w ul li a:hover{color: #ff2832;}
+header .w ul li ul.sub_menu{width: 100%;background: #fff;border: 1px solid #ccc;border-top: none;display: none;position: absolute;left: -1px;z-index: 10;}
+header .w ul li ul.sub_menu li{padding-left: 5px;line-height: 26px;}
+header .w ul li ul.sub_menu li:hover{border: none;}
+header .w ul li:hover{background: white;border: 1px solid #ccc;border-top: none;border-bottom: 1px solid white;}
+header .w ul li:hover .icon_down{background-position-Y: -290px;}
+header .w ul li:hover ul.sub_menu{display: block;}
+
+header .top_banner a{background: url("../../src/img/top_banner.jpg");display: block;height: 80px;z-index: 0;}
+header .top_banner i{position: absolute;top: 0;right: -2px;}
+
+header .w h1 .logo{background: url("../../src/img/logo.png");display: block;width: 210px;height: 72px;margin:20px 0; }
+header .search_txt{width: 360px;height: 36px;position: absolute;left: 390px;top: 25px;text-indent: 10px;border: 1px solid rgb(215,0,15);}
+header .w .search_btn{width: 90px;height: 40px;position: absolute;top: 25px;left: 750px;color: white;background: rgb(215,0,15);font-size: 16px;cursor: pointer;}
+header .w .search i.icon_search{position: absolute;top: 37px;left: 722px;}
+header .w .shopping{height: 30px;padding: 0px 5px;background: rgb(247,247,247);border: 1px solid #ccc;position: absolute;top: 25px;right: 0;}
+header .w .shopping a{color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
